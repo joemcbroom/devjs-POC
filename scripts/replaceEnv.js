@@ -15,7 +15,7 @@ const __dirname = path.dirname(__filename);
  * @param {*} environment should be gh commit hash
  */
 
-const environment = process.argv[3];
+const environment = process.argv[2];
 
 if (!environment) {
     console.error('Missing environment argument. Usage: node scripts/replaceEnv.js <environment>');
